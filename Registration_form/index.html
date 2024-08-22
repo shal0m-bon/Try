@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(184, 224, 255);
+            
+        }
+        .text-color{
+            color:rgb(30, 29, 29)
+        }
+        .headers{
+            text-align:center;
+        }
+        img.pics{
+            width:200px;
+            height:130px;
+            margin-top:60px;
+            margin-left:50px;
+        }
+        .pho{
+            width: 200px;
+            height: 300px;
+        }
+        .pic{
+            width:200px;
+            height: 300px;
+            border: none;
+            border-radius: 200px;
+        }
+        .flex{
+            display:flex;
+            justify-content: space-around;
+            flex-direction: row;
+        }
+        .flex img{
+            height: 200px;
+        }
+        
+        .label{
+            color: rgb(74, 74, 74);
+            margin-left: 60px;
+            margin-top: 10px
+        }
+        .name2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        footer{
+            text-align: center;
+            font-size: 10px;
+            font-family: sans-serif;
+            color:rgb(74, 74, 74);
+        }
+        .input{
+            margin: 0px 20px; 
+        }
+        .input_tell{
+            margin-left: 33px;
+        }
+        .search{
+            border:2px solid rgb(74, 74, 74);
+            border-radius: 10px; 
+            width: 200px; 
+            margin-top:70px;
+            margin-left:20px; 
+            margin-right: 50px; 
+        }
+
+    </style>
+</head>
+<body >
+
+    <!-- <h1 class="bg-green-600">this is my first tailwind app</h1> -->
+    <div class="text-color">
+        <h1 class="headers">Registration form</h1>
+        <div class="flex">
+            <div class="top" >
+                <img class="pho" src="marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg" alt="yeah">
+            </div>
+            <div class="top" >
+                <input class="search" type="search" placeholder="Ask me anything...">
+            </div>
+            <div class="top" >
+                <img class="pic" src="carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg" alt="yoo">
+            </div>  
+        </div>
+       
+        <div class="name2">
+            <div>
+                <form style="margin-left: 40px;">
+                    <div style=" margin-bottom: 15px;">
+                        <lable >Name</lable>
+                        <input class="input" type="text" placeholder="Shalom Bonjeh">
+                    </div>
+                    <div style=" margin-bottom: 15px;">
+                        <lable>Email</lable>
+                        <input class="input" type="email" placeholder="shalombonjeh@gmail.com">
+                    </div>
+                    <div>
+                        <lable>Tell</lable>
+                        <input class="input_tell" type="number" placeholder="666-419-666">
+                    </div>
+                </form>
+            </div>
+            <div style="text-align: center; align-items: center; padding-top: 45px; height: 50px; width: 178px;
+                       background-color: grey; border: 2px solid #1d1d1d; margin-right: 40px;">
+                <input type="file" placeholder="Submit">
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 15px; margin-bottom: 15px;">
+            <button type="button" style="font-weight: bolder; font-family: 'Times New Roman', Times, serif; 
+            padding: 08px; background-color: grey;">
+                Submit
+            </button>
+        </div>
+        <div >
+            <h2 class="headers">Other programs</h2>
+            <div style="display: flex; flex-direction: row; justify-content: space-around;">
+                <div>
+                    <img class="pics" src="annie-spratt-R3LcfTvcGWY-unsplash.jpg" alt="food"><br>
+                    <label class="label">Food</label>
+                </div>
+                <div>
+                    <img class="pics" src="ryan-brooklyn-8rV2ILqkJ0o-unsplash.jpg" alt="art"><br>
+                    <label class="label">Art</label>
+                </div>
+                <div>
+                    <img class="pics" src="folco-masi-erUcICg2LYE-unsplash.jpg" alt="sport"><br>
+                    <label class="label">Sport</label>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: row; justify-content: space-around;">
+                <div>
+                    <img class="pics" src="geordanna-cordero-5NE6mX0WVfQ-unsplash.jpg" alt="paint"><br>
+                    <label class="label">Painting</label>
+                </div>
+                <div>
+                    <img class="pics" src="israel-palacio-Y20JJ_ddy9M-unsplash.jpg" alt="music"><br>
+                    <label class="label">Music</label>
+                </div>
+                <div>
+                    <img class="pics" src="kelly-sikkema-0KE2UZWeV2Q-unsplash.jpg" alt="see more.."><br>
+                    <label class="label">Others</label>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <footer>Learn more about us <a href="#">About us</a></footer>
+    </div>
+</body>
+</html>

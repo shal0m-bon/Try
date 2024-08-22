@@ -1,0 +1,94 @@
+body{
+    background-image: url(megs-harrison-_aT35ZJu_6c-unsplash.jpg);
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-blend-mode: soft-light; */
+}
+div.main_div{
+    background-image: url(megs-harrison-_aT35ZJu_6c-unsplash.jpg);
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    height: 1000px;
+    border: 4px solid rgb(220, 220, 220);
+    margin: 70px;
+    border-radius: 15px;
+
+}
+.logo{
+   display: flex;
+   flex-direction: row;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    margin: 30px 10px;
+    padding: 10px;
+}
+.logo h1{
+    font-size: xxx-large;
+    margin-top: 47px;
+    color: white;
+    text-shadow: 0.5px 1px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Welcome h1{
+    font-size: 60px;
+    margin-top: 90px;
+    margin-left: 30px;
+    color: rgb(201, 151, 151);
+    text-shadow: 0.5px 1px 2px;
+    letter-spacing: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Welcome h1 span{
+    font-size: 90px;
+    letter-spacing: normal;
+    margin-top: 90px;
+    margin-left: 50px;
+    color: white;
+    text-shadow: 0.5px 1px 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-wrap: normal;
+}
+.brief_description{
+    width: 30%;
+    height: 450px;
+    border: none;
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    margin-right: 50px;
+    column-count: 2;
+    column-gap: 15px;
+    padding: 120px 20px;
+    font-size: 18px;
+    color: rgb(160, 118, 118);
+    text-shadow: 0.5px 0.5px 2px;
+}
+button{
+    position: relative;
+    left: 1125px;
+    top: -65px;
+    width: 18%;
+    height: 50px;
+    padding-bottom: 4px;
+    margin-right: 0px;
+    border: none;
+    background-color: rgb(211, 163, 96);
+    border-radius: 30px;
+    font-size: x-large;
+}
+ul li{
+    display: inline-block;
+    justify-content: space-around;
+    text-decoration: none;
+    color: rgb(211, 163, 96);
+}
